@@ -76,11 +76,11 @@ public class ProfileFragment extends Fragment {
 		super.onAttach(activity);
 		try {
 			mListener = new OnFragmentInteractionListener() {
-				
+
 				@Override
 				public void onFragmentInteraction(Uri uri) {
 					// TODO Auto-generated method stub
-					
+
 				}
 			};
 			((MainActivity) activity).onSectionAttached(getArguments().getInt(

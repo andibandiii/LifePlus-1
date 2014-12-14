@@ -20,6 +20,14 @@
         android:text="Description"
         android:textColor="#808080"
         android:textSize="12sp" />
+    
+    <TextView
+        android:id="@+id/itemID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemDesc"
+        android:text="ID"
+        android:textSize="0sp" />
 
     <CheckBox
         android:id="@+id/itemCheck"
@@ -30,5 +38,16 @@
         android:layout_alignTop="@+id/itemName" 
         android:focusable="false" 
 		android:focusableInTouchMode="false"/>
+
+    <TextView
+        android:id="@+id/itemTimeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemName"
+        android:layout_alignBottom="@+id/itemName"
+        android:layout_toLeftOf="@+id/itemCheck"
+        android:text="12:00\nDEC 1"
+        android:textSize="8sp"
+        android:gravity="right" />
  
 </RelativeLayout>

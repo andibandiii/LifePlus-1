@@ -1,7 +1,13 @@
 package edu.mobicom.lifeplus;
 
 public class Indulgence {
-
+	
+	static final String TABLE_NAME = "IndulgenceList";
+	static final String COLUMN_ID = "_id";
+	static final String COLUMN_NAME = "name";
+	static final String COLUMN_DESC = "desc";
+	static final String COLUMN_PRICE = "price";
+	
 	private int id;
 	private String name;
 	private String desc;
